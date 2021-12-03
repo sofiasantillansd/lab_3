@@ -1,0 +1,19 @@
+{
+  "name": "Lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "alpinejs": "^3.5.0",
+    "jquery": "^3.6.0",
+    "tailwindcss": "^2.2.19",
+    "vue": "^2.6.14"
+  }
+}
