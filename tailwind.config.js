@@ -3,6 +3,9 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    flex: {
+      '75': '75%',
+    },
     inset: {
       '0': 0,
     },
@@ -51,6 +54,7 @@ module.exports = {
       '0.1': '0.1rem',
       '0.2': '0.2rem',
       '0.3': '0.3rem',
+      'six': '16px',
     },
     zIndex: {
       '1': 1,
@@ -77,6 +81,7 @@ module.exports = {
       '12': '3rem',
       '1': '1rem',
       '0.2': '0.2rem',
+      '16': '16px',
     },
     backgroundColor: theme => ({
       ...theme('colors'),
