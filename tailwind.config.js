@@ -3,8 +3,13 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'smol': '200px',
+    },
     fontSize: {
-      '24': '24px'
+      '24': '24px',
+      '4xl': '2.5rem',
+      'lg': '1.125rem',
     },
     borderRadius: {
       '1': '1px',
@@ -14,6 +19,7 @@ module.exports = {
       '75': '75%',
       '25': '25%',
       '50': '50%',
+      '33': '33.3%',
     },
     inset: {
       '0': 0,
@@ -94,6 +100,9 @@ module.exports = {
       '1': '1rem',
       '0.2': '0.2rem',
       '16': '16px',
+      '18': '8rem',
+      '99': '99px',
+      '10.5': '10.5rem',
     },
     backgroundColor: theme => ({
       ...theme('colors'),

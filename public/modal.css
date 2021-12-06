@@ -68,6 +68,10 @@
   display: block;
 }
 
+.bbmocha {
+  flex: none;
+}
+
 @media only screen and (max-width: 500px) {
   .modal {width: 17rem;
     height: 10rem;
@@ -86,3 +90,21 @@
     top: 6%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .top {
+    transform: translate(-50%, -50%);
+    left: 15rem;
+    top: 4rem;
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width:358px) {
+  .top {
+    transform: translate(-50%, -50%);
+    left: 15rem;
+    top: 4rem;
+    width: 114%;
+  }
+}

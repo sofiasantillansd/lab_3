@@ -9,30 +9,32 @@
 </head>
 <body class="bg-paper">
   <div class="top flex absolute flex-col items-center">
-    <h1 class="text-4xl font-receipt tracking-widest ml-28">BABY MOCHA</h1>
-    <h3 class=" font-receipt ml-28 text-lg">Order number k4rn-rf3v</h3>
-    <span id="datetime" class="font-receipt tracking-widest ml-28 text-lg"></span>
+    <h1 class="text-4xl font-receipt tracking-widest ml-28 bbmocha smol:text-xl xl:text-4xl">BABY MOCHA</h1>
+    <h3 class=" font-receipt ml-28 text-lg smol:text-base xl:text-lg">Order number k4rn-rf3v</h3>
+    <span id="datetime" class="font-receipt tracking-widest ml-28 text-lg smol:text-xs xl:text-base"></span>
   </div>
 
-<div class="flex flex-wrap -mx-16 flx">
+<div class="flex flex-wrap mx-1 flx mt-18">
   <div class="flex-75 px-six">
-    <div class="bg-notwhite px-20 pt-five pb-xmd border border-lightgray border-solid">
+    <div class="bg-transparent px-20 pt-five pb-xmd border-2 border-black border-dashed mx-99">
       <form>
         <div class="flex flex-wrap -mx-16 flx">
-          <div class="px-six flex-50">
+          <div class="px-six flex-33">
             <h3>Customer Information</h3>
             <label class="mb-sm block" for="fname">Full Name</label>
-            <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" type="text" id="fname" name="fullname" placeholder="Juan Dela Cruz">
+            <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" size="30" type="text" id="fname" name="fullname" placeholder="Juan Dela Cruz">
             <label class="mb-sm block" for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="juandelacruz@gmail.com">
-            <label class="mb-sm block" for="add">Street Address</label>
-            <input type="text" id="add" name="address" placeholder="Block C, Lot 5, Maligaya Street">
-            <label class="mb-sm block" for="brngy">Barangay</label>
-            <input type="text" id="brngy" name="barangay" placeholder="Bagong Silang">
-            <label class="mb-sm block" for="city">City</label>
-            <input type="text" id="city" name="city" placeholder="Manila">
+            <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" size="30" type="text" id="email" name="email" placeholder="juandelacruz@gmail.com">
           </div>
-          <div class="px-six flex-50">
+            <div class="px-six flex-33">
+              <label class="mb-sm block" for="add">Street Address</label>
+              <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" size="30" type="text" id="add" name="address" placeholder="Block C, Lot 5, Maligaya Street">
+              <label class="mb-sm block" for="brngy">Barangay</label>
+              <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" size="30" type="text" id="brngy" name="barangay" placeholder="Bagong Silang">
+              <label class="mb-sm block" for="city">City</label>
+              <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" size="30" type="text" id="city" name="city" placeholder="Manila">
+            </div>
+          <div class="px-six flex-33">
             <h3>Payment</h3>
             <label for="fname">Available Methods</label>
             <div class="mb-20 py-seven text-24">
@@ -52,13 +54,22 @@
               <img class="inline-block" src="https://img.icons8.com/external-sbts2018-flat-sbts2018/55/000000/external-cash-on-delivery-cyber-monday-sbts2018-flat-sbts2018.png"/>
             </div>
             <label class="mb-sm block" for="gcashaccount">Registered Gcash Number</label>
-            <input type="text" id="gcashaccount" name="gcashaccount" placeholder="09xxxxxxxxx">
+            <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" type="text" id="gcashaccount" name="gcashaccount" placeholder="09xxxxxxxxx">
           </div>
+        </div>
+      </div>
+      <div class="border-t border-b border-black border-solid">
+        <div class="grid grid-cols-1 divide-y-2 divide-black">
+          <h2 class="font-oswald uppercase">iced rose latte</h2>
+          <img class="w-10.5" src="/images/IRL.jpg">
+          <input type="radio" id="sm" name="sizesmol" value="tall"><label for="sizesmol">Tall</label>
+          <input type="radio" id="md" name="sizemid" value="grande"><label for="sizemd">Grande</label>
+          <input type="radio" id="lg" name="sizelg" value="venti"><label for="sizelg">Venti</label>
         </div>
       </div>
       <label class="mb-sm block">
         <input type="checkbox" checked="checked" name="deliver">
-          Deliver Now
+          Deliver Today
         </label>
         <input type="submit" value="Confirm Order" class="btn">
       </form>
