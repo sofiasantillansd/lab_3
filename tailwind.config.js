@@ -3,8 +3,17 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontSize: {
+      '24': '24px'
+    },
+    borderRadius: {
+      '1': '1px',
+      '3': '3px',
+    },
     flex: {
       '75': '75%',
+      '25': '25%',
+      '50': '50%',
     },
     inset: {
       '0': 0,
@@ -55,6 +64,9 @@ module.exports = {
       '0.2': '0.2rem',
       '0.3': '0.3rem',
       'six': '16px',
+      'five': '5px',
+      'twelve': '12px',
+      'seven': '7px',
     },
     zIndex: {
       '1': 1,
@@ -92,6 +104,7 @@ module.exports = {
           'white': '#fff',
           'red': '#e53e3e',
           'maroon': '#b91c1c',
+          'notwhite': '#f2f2f2',
      }),
     placeholderColor: theme => theme('colors'),
       placeholderColor: {
@@ -103,6 +116,7 @@ module.exports = {
       DEFAULT: theme('colors.gray.300', 'currentColor'),
       'notblack': '#1c1916',
       'logo': '#282320',
+      'lightgray': '#D3D3D3',
     }),
     colors: {
       header: '#fff7f2',
