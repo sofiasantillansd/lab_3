@@ -16,7 +16,7 @@
     <span id="datetime" class="font-receipt tracking-widest ml-28 text-lg smol:text-xs xl:text-base"></span>
   </div>
 
-  <div class="flex flex-wrap mx-1 flx mt-18">
+  <div class="flex flex-wrap mx-1 flx mt-18 font-gothic font-thin">
     <div class="flex-75 px-six">
       <div class="bg-transparent px-20 pt-five pb-xmd border-2 border-black border-dashed mx-99">
         <form>
@@ -119,27 +119,34 @@
               <input class="w-100 mb-20 p-twelve border border-solid border-lightgray rounded-3" type="text"
                 id="gcashaccount" name="gcashaccount" placeholder="09xxxxxxxxx">
             </div>
-          </div>
+        </form>
       </div>
-      <!--I do not know how to code in javascript for the quantity of the order to match here from the index, so in default it is one-->
-      <div class="border-t border-b border-black border-solid">
-        <div class="grid grid-cols-1 divide-y-2 divide-black">
-          <h2 class="font-oswald uppercase">iced rose latte</h2>
+    </div>
+
+
+    <!--I do not know how to code in javascript for the quantity of the order to match here from the index, so in default it is one-->
+    <div class="border-t border-b border-black border-solid mt-12">
+      <div class="divide-y-2 divide-black mx-12 my-0.2 flex p-sm">
+        <div class="p-sm w-auto ml-40">
+          <h2 class="font-oswald uppercase mb-1 text-1.5">iced rose latte</h2>
           <img class="w-10.5" src="/images/IRL.jpg">
+        </div>
+        <div class="p-sm ml-28 flex-grow flex-col flex items-center">
           <input type="radio" id="sm" name="sizesmol" value="tall"><label for="sizesmol">Tall</label>
           <input type="radio" id="md" name="sizemid" value="grande"><label for="sizemd">Grande</label>
           <input type="radio" id="lg" name="sizelg" value="venti"><label for="sizelg">Venti</label>
+          <label for="addcom">Special Instructions:</label>
+          <textarea rows="3" cols="100"></textarea>
         </div>
       </div>
-      <label class="mb-sm block">
-        <input type="checkbox" checked="checked" name="deliver">
-        Deliver Today
-      </label>
-      <input type="submit" value="Confirm Order" class="btn">
-      </form>
     </div>
+    <label class="mb-sm block">
+      <input type="checkbox" checked="checked" name="deliver">
+      Deliver Today
+    </label>
+    <input type="submit" value="Confirm Order" class="btn">
   </div>
-  </div>
+
 
   <script src="main.js"></script>
 </body>
