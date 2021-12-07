@@ -27,7 +27,7 @@ module.exports = {
     extend: {
       translate: {
         '1/2': '50%',
-       },
+      },
       fontFamily: {
         'receipt': ['"Dot Matrix"', '"Merriweather"', '"Zen Kaku Gothic Antique"',],
         'logo': ['Dosis'],
@@ -40,8 +40,8 @@ module.exports = {
         '25': '25px',
         '-21': '-21px',
         '15': '15px',
-        '27':'27px',
-        '25':'25px',
+        '27': '27px',
+        '25': '25px',
         '18': '18px',
         '12': '12px',
         '32': '32px',
@@ -106,17 +106,17 @@ module.exports = {
     },
     backgroundColor: theme => ({
       ...theme('colors'),
-          'header': '#fff7f2',
-          'notblack': '#1c1916',
-          'logo': '#282320',
-          'beige': '#282320',
-          'white': '#fff',
-          'red': '#e53e3e',
-          'maroon': '#b91c1c',
-          'notwhite': '#f2f2f2',
-     }),
+      'header': '#fff7f2',
+      'notblack': '#1c1916',
+      'logo': '#282320',
+      'beige': '#282320',
+      'white': '#fff',
+      'red': '#e53e3e',
+      'maroon': '#b91c1c',
+      'notwhite': '#f2f2f2',
+    }),
     placeholderColor: theme => theme('colors'),
-      placeholderColor: {
+    placeholderColor: {
       'logo': '#282320',
       'notblack': '#1c1916',
     },
@@ -129,15 +129,15 @@ module.exports = {
     }),
     colors: {
       header: '#fff7f2',
-        notblack: '#1c1916',
-        logo: '#282320',
-        beige: '#282320',
-        white: '#fff',
+      notblack: '#1c1916',
+      logo: '#282320',
+      beige: '#282320',
+      white: '#fff',
     },
     textColor: theme => theme('colors'),
     textColor: {
       'white': '#fff',
-      
+
     },
     maxWidth: {
       'prdt': '15rem',
