@@ -140,15 +140,20 @@
         </div>
       </div>
     </div>
-    <label class="mb-sm block font-zen font-bold">
-      <input type="checkbox" checked="checked" name="deliver">
-      Deliver Today
-    </label>
-    <input type="submit" class="font-zen font-bold tracking-widest" value="Confirm Order" class="btn">
+    <div class="text-right"> 
+      <label class=" mb-sm block font-zen font-bold mr-40">
+        <input type="checkbox" checked="checked" name="deliver">
+        Deliver Today
+      </label>
+      <button
+        class="btn font-zen font-bold tracking-widest bg-brn hover:bg-brwn text-white font-bold rounded py-0.3 px-4  mr-eightpoint transition duration-300 transform-gpu hover:scale-110"
+        onclick="window.ShowConfirmation('Confirm Order?', (result)=>{ alert(result); })">Confirm Order</button>
+    </div>
   </div>
 
 
   <script src="time.js"></script>
+  <script src="confirmation.js"></script>
 </body>
 
 </html>
