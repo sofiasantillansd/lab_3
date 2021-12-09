@@ -126,12 +126,12 @@
 
     <!--I do not know how to code in javascript for the quantity of the order to match here from the index, so in default it is one-->
     <div class="border-t border-b border-black border-solid mt-12">
-      <div class="divide-y-2 divide-black mx-12 my-0.2 flex p-sm">
-        <div class="p-sm w-auto ml-40">
+      <div class="divide-y-2 divide-black mx-12 my-0.2 flex p-sm w-max">
+        <div class="p-sm w-auto ml-17.25">
           <h2 class="font-oswald uppercase mb-1 text-1.5">iced rose latte</h2>
           <img class="w-10.5" src="/images/IRL.jpg">
         </div>
-        <div class="p-sm ml-28 flex-grow flex-col flex items-center">
+        <div class="p-sm ml-28 flex-grow flex-col flex font-zen font-bold">
           <input type="radio" id="sm" name="sizesmol" value="tall"><label for="sizesmol">Tall</label>
           <input type="radio" id="md" name="sizemid" value="grande"><label for="sizemd">Grande</label>
           <input type="radio" id="lg" name="sizelg" value="venti"><label for="sizelg">Venti</label>
@@ -140,15 +140,15 @@
         </div>
       </div>
     </div>
-    <label class="mb-sm block">
+    <label class="mb-sm block font-zen font-bold">
       <input type="checkbox" checked="checked" name="deliver">
       Deliver Today
     </label>
-    <input type="submit" value="Confirm Order" class="btn">
+    <input type="submit" class="font-zen font-bold tracking-widest" value="Confirm Order" class="btn">
   </div>
 
 
-  <script src="main.js"></script>
+  <script src="time.js"></script>
 </body>
 
 </html>

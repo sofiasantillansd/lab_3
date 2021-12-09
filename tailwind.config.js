@@ -11,6 +11,7 @@ module.exports = {
             '4xl': '2.5rem',
             'lg': '1.125rem',
             '1.5': '1.5rem',
+            '3xl': '1.875rem'
         },
         borderRadius: {
             '1': '1px',
@@ -109,7 +110,8 @@ module.exports = {
             '10.5': '10.5rem',
             '1.2': '1.2rem',
             'nine': '9%',
-            'twenty': '20%'
+            'twenty': '20%',
+            '17.25': '17.25rem',
         },
         backgroundColor: theme => ({
             ...theme('colors'),
